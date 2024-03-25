@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-style: normal;
+    font-size: large;
+    font-family: fangsong;
+    color: black;
+}
+body {
+    background-color: rgb(245, 245, 194);
+}
+header div {
+    width: 100%;
+    height: 55px;
+    border: 1px solid black;
+    background-color: #90c790;
+}
+
+.head img {
+    width: 63px;
+    height: 55px;
+    padding-right: 4px;
+        
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li {
+    
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: black;
+    font-weight:550;
+}
+a:hover {
+    color: wheat;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    
+   
+}
+
+#card1{
+    width: 40%;
+    height: 290px;
+    background-color: lightcoral;
+    margin:20px 20px;
+    border: 2px solid black;
+    transition: all 1s ease-in-out .3s;
+}
+
+#card1:hover{
+    background-color: lightseagreen;
+    height: 300px;
+    width: 33%;
+    border-radius: 100px;
+    font-size: 17.06px;
+    transform: rotate(360deg);
+    padding: 20px;
+}
+
+  
+#card1 img {
+    width: 30%;
+    height: 50%;
+    margin: -61px -5px;
+    margin-top: -122px;
+
+}
+.cards h3 {
+    float:right;
+    font-size: 25px;
+    margin-right: 97px;
+    margin-top: 20px;
+}
+
+
+.content {
+    
+    width: 296px;
+    height: 73px;
+    float: right;
+    margin-left: 252px;
+    text-align: center;
+}
+
+#card2{
+    width: 40%;
+    height: 290px;
+    background-color: lightcyan;
+    margin:20px 20px;
+    border: 2px solid black;
+    transition: all 1s ease-in-out .3s;
+    
+}
+#card2 img {
+    width: 30%;
+    height: 50%;
+    /* margin:-117px 4px; */
+    margin: -61px 2px;
+    margin-top: -122px;
+}
+
+#card2:hover{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 33%;
+    border-radius: 100px;
+    font-size: 17.06px;
+    transform: rotate(360deg);
+    padding: 20px;
+}
+ button {
+    width: 80px;
+    height: 27px;
+    margin-left: 105px;
+    margin-top: 90px;
+    background-color: #5fc1a9;
+    border-radius: 11px;
+    font-weight: bold;
+
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+    background-color: yellow;
+}
+   
+#card3{
+    width: 40%;
+    height: 290px;
+    background-color: rgb(237, 170, 102);    
+    margin:20px 20px;
+    border: 2px solid black;
+    transition: all 1s ease-in-out .3s;
+    
+}
+#card3 img {
+    width: 30%;
+    height: 50%;
+    /* margin:-117px 4px; */
+    margin: -61px 2px;
+    margin-top: -122px;
+}
+
+#card3:hover{
+    background-color: rgb(204, 101, 206);
+    height: 300px;
+    width: 33%;
+    border-radius: 100px;
+    font-size: 17.06px;
+    transform: rotate(360deg);
+    padding: 20px;
+}
+
+.about {
+    width: 60%;
+    text-align: center;
+    margin-left: 18%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.auto-slider{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px 10px 20px;
+    background: rgb(5 20 225 / 22%);
+    width: 930px;
+    margin: 148px;
+    overflow: visible;
+    border-radius: 4px;
+    height: 400px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+ margin-top: 15px;
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width:800%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s sliding ease infinite; 
+}
+
+/* Slider indicator */
+.indicator{
+    margin-left: 160px;
+    width: 946px;
+    /* max-width: 930px; */
+    height: 6px;
+    background: skyblue;
+    position: absolute;
+    bottom: 0;
+    
+    animation: indicating 6s ease infinite; 
+    
+}
+
+/* @keyframes sliding{  [[FOR 5 IMAGES]]
+            0%{left: 0%; }
+            20%{left: -100%;}
+            40%{left: -200%;}
+            60%{left: -300%;}
+            80%{left: -400%;}
+            100%{left: 0%;}} */
+
+            @keyframes sliding{
+            0%{left: 0%; }
+            20%{left: -140%;}
+            40%{left: -280%;}
+            60%{left: -420%;}
+            80%{left: -560%;}
+            100%{left: 0%;}
+            /* 120%{left: 0%;} */
+            
+            }
+            
+
+        @keyframes indicating{
+            from{
+                left: -120%;
+            }
+            to{
+                left: 0%;
+            }
+}  
+
+.contact-parent{
+    background: #fff;
+    display:flex;
+    margin:160px 0;
+}
+
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.child1{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+    text-shadow:0px 0px 2px #000;
+}
+ 
+.child1 p span{
+    font-size:16px;
+    color:#9df2fd;
+}
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.inside-contact{
+    width:90%;
+    margin:0 auto;
+}
+ 
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+ 
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+@media screen and (max-width:991px){
+    .contact-parent{
+        display:block;
+        width:100%;
+    }
+ 
+    .child1{
+        display:none;
+    }
+ 
+    .child2{
+        background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+        background-size:cover;
+    }
+ 
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+    }
+}
