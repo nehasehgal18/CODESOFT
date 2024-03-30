@@ -1,132 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPage</title>
-    <link rel="icon"  href="https://icons.iconarchive.com/icons/alex-t/splash-of-fruit/1024/button-lemon-icon.png">
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-    <header>
-        <nav>
-        <div class="head">
-            <ul>
-                <img src="https://www.datwebdigital.com/DWD/wp-content/uploads/2012/06/logo-design.jpg">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-    </header>
-    <h2>"Welcome to my Page &#128153;"</h2>
-    <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed nemo laboriosam hic voluptatibus ducimus iure deserunt, adipisci impedit sint nobis totam dolores possimus qui. Tempore doloremque ad delectus vitae nulla officiis repellendus porro omnis voluptas quidem totam veritatis eaque cupiditate velit minima, nostrum autem iusto enim quas rem quasi dolore animi quam. Neque nobis nihil blanditiis non minima voluptas cumque quaerat commodi qui asperiores sequi natus temporibus sit placeat nostrum perspiciatis voluptatibus, tenetur vitae architecto nulla enim. Deleniti, nisi perspiciatis consectetur excepturi totam atque, repudiandae sed, doloremque voluptatem laboriosam sequi? Voluptate in tenetur vero, quisquam molestias officia ipsa ullam deserunt harum! Voluptate error aliquam velit nam? Aspernatur, iste tempora recusandae dolorum dignissimos mollitia magni architecto dicta itaque expedita atque ducimus dolore reiciendis! Qui tempora dolorem consequatur modi aperiam quo, libero unde aut quam, perferendis accusamus cumque quos voluptatum nisi nemo ipsum. Voluptatem, corrupti ipsa porro repellendus iusto neque numquam.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-    <section class="auto-slider">
-        <div id="slider">
-            <figure>
-                <img style="width: 1100px; height: 375px; margin-top: 0px;" src="http://retaildesignblog.net/wp-content/uploads/2013/01/Paris-Kids-department-by-Dalziel-and-Pow-Santiago-08.jpg" alt="Image">
-                <img style="width: 1350px; height: 375px; margin-top: 0px;" src="https://thumbs.dreamstime.com/b/childrens-winter-clothing-store-section-casual-children-shopping-mall-hong-kong-60717506.jpg" alt="Image">
-                <img style="width: 1280px; height: 375px; margin-top: 0px;" src="https://dress-trends.com/wp-content/uploads/2016/11/Kids-clothes-Trends-and-tendencies-2017-childrens-clothing-kids-wear-7.jpg" alt="Image">
-                <img style="width: 1100px; height: 375px; margin-top: 0px;" src="https://i.ytimg.com/vi/TK6s5vQbMcw/hqdefault.jpg" alt="Image">
-                <img style="width: 1200px; height: 375px; margin-top: 0px;" src="https://i.ytimg.com/vi/3xQh330OfvA/maxresdefault.jpg" alt="Image">
-                <!-- <img style="width: 1250px; height: 375px; margin-top: 0px;" src="https://ae01.alicdn.com/kf/HTB1UaTTO9zqK1RjSZFLq6An2XXaM/MiDeer-Kids-Wooden-Apple-Kiwi-Fruits-Spin-Toys-Colorful-Mini-Spinning-Tops-Fun-Classic-Toys-for.jpg" alt="Image"> -->
-                <!-- <img style="width: 230px; height: 375px; margin-top: 0px;" src="https://i.ytimg.com/vi/3xQh330OfvA/maxresdefault.jpg" alt="Image">  -->
-            </figure>
-            <div class="indicator"></div>
-</div>
-<p style="padding-top: 40px;text-align:center ; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-    <b>Objective</b><br>The Kids’ Department serves individuals who are chronologically and developmentally ages 0-11 and their families. We strive to provide a welcoming space where families can learn and spend time together.
-    We provide regular programming for all kids of all ages as well as special programming throughout the year. For up-to-date information on programs currently being offered, or to sign-up for a program please visit the library’s web calendar. 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" placeholder="0" id="input" disabled />
+      </div>
+      <div class="buttons">
+       
+        <button value="AC" id="clear" class="operation-button" >AC</button>
+        
+        <button value="DEL" id="erase" class="operation-button" >DEL</button>
+        <button value="/" class="operation-button button">/</button>
+        <button value="*" class="operation-button button" >*</button>
 
+        <button value="7" class="digit-button button" />7</button>
+        <button value="8" class="digit-button button" />8</button>
+        <button value="9" class="digit-button button" />9</button>
+        <button value="-" class="operation-button button" />-</button>
 
-    <div class="cards">
-        <div id="card1">
-            <h3>Hello &#127775;</h3>
-            <div class="content">
-                <p style="width:290px ; margin-top: 8px; font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quis eaque voluptas odit tempora, quos culpa nesciunt! Facere quia accusantium hic est mollitia nihil eveniet?</p>
-            </div>
-            
-            <img src="https://vignette.wikia.nocookie.net/doraemon/images/b/b1/Dorami_2005.png/revision/latest?cb=20170627223927&path-prefix=en">
+        <button value="4" class="digit-button button" />4</button>
+        <button value="5" class="digit-button button" />5</button>
+        <button value="6" class="digit-button button" />6</button>
+        <button value="+" class="operation-button button" />+</button>
 
-            <button>Click Here</button>
-            
+        <button value="1" class="digit-button button" />1</button>
+        <button value="2" class="digit-button button" />2</button>
+        <button value="3" class="digit-button button" />3</button>
 
-        </div>
-        <div id="card2">
-
-            <h3>Hello &#127775;</h3>
-            <div class="content">
-                <p style="width:290px ; margin-top: 8px; font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo in temporibus dicta odio distinctio iusto modi architecto unde nisi atque cum, error ea, porro velit non. Officiis, ea aliquid.</p>
-            </div>
-
-            <img src="http://3.bp.blogspot.com/-jYVMCjz2pIE/TtSfD1uPoUI/AAAAAAAAAJc/HbgJgF5UImw/s1600/shincjn.cms1.gif">
-
-            <button>Click Here</button>
-        </div>
-        <div id="card3">
-            <h3>Hello &#127775;</h3>
-            <div class="content">
-                <p style="width:290px ; margin-top: 8px; font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo in temporibus dicta odio distinctio iusto modi architecto unde nisi atque cum, error ea, porro velit non. Officiis, ea aliquid. </p>
-            </div>
-            
-            <img src="https://clipartcraft.com/images/free-clipart-images-cartoon-1.png">
-
-            <button>Click Here</button>
-            
-
-        </div>
+        <button value="=" id="equal" class="operation-button" />=</button>
+        <button value="0" class="digit-button button" id="zero" />0</button>
+        <button value="." class="digit-button button" />.</button>
+      </div>
+         
     </div>
-   
-
-<div class="container">
-    <div class="contact-parent">
-       <div class="contact-child child1">
-          <p>
-             <i class="fas fa-map-marker-alt"></i>&#128205 Address <br />
-             <span> 9057 Vermont Road Cockeysville, MD 21030
-             <br />
-             44 E. West Street Ashland, OH 44805 <br>
-             London, UK
-             </span>
-          </p>
-          <p>
-             <i class="fas fa-phone-alt"></i>&#128222 Let's Talk <br />
-             <span>+20 0787878787 <br>
-                +1 202-918-2132 <br>
-            +91 2238904637</span>
-          </p>
-          <p>
-             <i class=" far fa-envelope"></i>&#128140 General Support <br />
-             <span>contact@example.com <br>
-            mall@yahoo.com <br>
-        southgate@gmail.com</span>
-          </p>
-       </div>
-       <div class="contact-child child2">
-          <div class="inside-contact">
-             <h2>Contact Us</h2>
-             <h3>
-                <span id="confirm">
-             </h3>
-             <p>Name *</p>
-             <input id="txt_name" type="text" Required="required">
-             <p>Email *</p>
-             <input id="txt_email" type="text" Required="required">
-             <p>Phone *</p>
-             <input id="txt_phone" type="text" Required="required">
-             <p>Subject *</p>
-             <input id="txt_subject" type="text" Required="required">
-             <p>Message *</p>
-             <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
-             <input type="submit" id="btn_send" value="SEND">
-          </div>
-       </div>
-    </div>
- </div>
-</body>
+ 
+    <script src="script.js"></script>
+  </body>
 </html>
